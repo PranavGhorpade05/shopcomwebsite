@@ -373,6 +373,22 @@
     background-position-x: 42px;
     transform: scaleX(-1);
 }
+#nameodcatageory {
+    position: absolute;
+    width: 114px;
+    height: 49px;
+    left: 36px;
+    top: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
 
 #nameodcatageory {
     position: absolute;
