@@ -1,0 +1,542 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#headerdiscount {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#Signuplink {
+    color: white;
+}
+
+#header {
+    width: 1240px;
+    height: 48px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+#logo {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#shop {
+    border: none;
+    font-size: 20px;
+}
+
+#search {
+    font-size: 15px;
+    padding: 12px 16px;
+    width: 477px;
+    height: 22px;
+    background: #F0F0F0;
+    border-radius: 62px;
+    border: none;
+}
+
+#cart {
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+#Banner {
+    margin-top: 25px;
+    height: 663px;
+    width: 100vw;
+    background-color: rgba(242, 240, 241, 1);
+    position: relative;
+}
+
+#img1 {
+    position: absolute;
+    right: 60px;
+    top: 0px;
+}
+
+#star1 {
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    bottom: 92.59%;
+}
+
+#star2 {
+    position: absolute;
+    right: 600px;
+    top: 330px;
+    bottom: 88.86%;
+}
+
+#texts {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 82px;
+    gap: 50px;
+}
+
+#text1 {
+    /* FIND CLOTHES THAT MATCHES YOUR STYLE */
+    width: 577px;
+    height: 173px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    color: #000000;
+}
+
+#text2 {
+    /* Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style. */
+    width: 545px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#ShopNow {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 54px;
+    gap: 12px;
+    width: 210px;
+    height: 52px;
+    background: #000000;
+    border-radius: 62px;
+}
+
+#stats {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    position: relative;
+    gap: 10px;
+    top: 500px;
+    left: 100px;
+
+}
+
+#stat1 {
+    width: 107px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #000000;
+    margin: -2px 0px;
+}
+
+#decpt1 {
+    width: 156px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#line {
+    margin-top: 35px;
+    margin-left: 20px;
+    width: 74px;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transform: rotate(90deg);
+    z-index: 2;
+}
+
+#brands {
+    position: absolute;
+    width: 1400px;
+    height: 122px;
+    left: 0px;
+    top: 797px;
+    background: #000000;
+}
+
+#brand {
+    margin-top: 40px;
+    margin-right: 40px;
+    margin: 40px 53px;
+}
+
+#product-page1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 3;
+    position: relative;
+    top: 110px;
+}
+
+#product1 {
+    gap: 100px;
+}
+
+#newArrivals {
+    width: 100vw;
+    height: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 55px 0px;
+}
+
+#productsline {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#productimg {
+    width: 295px;
+    height: 298px;
+    background: #F0EEED;
+    border-radius: 20px;
+}
+
+#price-og {
+    width: 61px;
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#product-price {
+    display: flex;
+    width: 55px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+    color: #000000;
+    gap: 10px;
+}
+
+#price-current {
+    width: 55px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+    color: #000000;
+}
+
+#pricediscountpercentage {
+    justify-content: center;
+    align-items: center;
+    padding: 6px 14px;
+    gap: 12px;
+    width: 58px;
+    height: 20px;
+    background: rgba(255, 51, 51, 0.1);
+    border-radius: 62px;
+    /* -30% */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FF3333;
+}
+
+#view {
+    justify-content: center;
+    align-items: center;
+    padding: 16px 54px;
+    gap: 12px;
+    position: absolute;
+    width: 218px;
+    height: 52px;
+    left: calc(50% - 218px/2);
+    top: 598px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 62px;
+
+}
+
+#line2 {
+    /* Line 4 */
+
+    position: absolute;
+    width: 1240px;
+    height: 0px;
+    left: calc(50% - 1240px/2);
+    top: 664px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#product-page2 {
+    position: relative;
+    top: 250px;
+}
+
+#view2 {
+    justify-content: center;
+    align-items: center;
+    padding: 16px 54px;
+    gap: 12px;
+    position: absolute;
+    width: 218px;
+    height: 52px;
+    left: calc(50% - 218px/2);
+    top: 548px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 62px;
+
+}
+
+#CatageoryConatiner {
+    position: relative;
+    width: 1239px;
+    height: 866px;
+    left: 100px;
+    top: 457px;
+    background: #F0F0F0;
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#browse {
+    /* BROWSE BY dress STYLE */
+    position: absolute;
+    width: 787px;
+    height: 58px;
+    left: calc(50% - 687px/2);
+    top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#Catageory1 {
+    /* Frame 61 */
+    position: absolute;
+    width: 407px;
+    height: 289px;
+    left: 64px;
+    top: 192px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/e1b7/74ab/a32d9a769caba77c08e107a9198dcd6d?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Xp2sEqVJVW5gSLUnx~exZ9cfax4IKfyfZQKSFndyyUqCmm-GSDQ0DvZPNFk-cdrxfM~fE2q1BJ9msOIi-4ShBo4LKZX1xWDaF6w7eOb0fVBvzmP3VhyYpSkQW6CAMeKPw4HaTH6mpgNju6BkW3YB3qjf6sxFtjFxl3~OFMshlAwE95Ww6Cf-5DiAGJOXtltNL-xtVoxvOTjpVHYB0WzPwdHfReHzPIcYGwKp9~a1GBSc3E5y0sk0-wpi4JvktF0KTpA-xma~~0sg8uru7sFapQlqO9zKutshilk0ntYxoAWZCUFw4jm0N5ViGDKZ6OYpDXBpXZMvHT5mI3fHFgDEAw__);
+    background-position-y: -142px;
+    background-position-x: 42px;
+    transform: scaleX(-1);
+}
+
+#nameodcatageory {
+    position: absolute;
+    width: 114px;
+    height: 49px;
+    left: 36px;
+    top: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#Catageory2 {
+    /* Frame 62 */
+    position: absolute;
+    width: 684px;
+    height: 289px;
+    left: 491px;
+    top: 192px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/e46e/d6ac/8bdbe2c750dcc6e834bf1d98a4a73b29?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YZ~Htehv1Q7Owypskd~5rdzsxhylM-UiXkPP-powwe5ztJjW2cEiPmuoyCAK2swzsAKWIV6~BBSXfjVvmocqiEUwDXRA3UxszdhVAV9qzh2JepmD1qCnBL2UUzWkCYUfxwsRRqer~Ca3nj9lWCmrdmKEqGjXkP7o4oBUJzRYrNYXY7dKrIkD0vf1Ndb4IP-QYIe3CYeNDUIPBR46zYmdUXLz8i2XPZiIKb7OAI0R1ryzO6KXq97eULfG6N94Wr7iWypFfFHD3b4~5qt2GHRg-DzFEonjkVu97WavMvUQlO6ClQATF1p58wGSUlwr9WN3~PpcJkV~Otr59kNVBY1dOQ__);
+    background-position-y: -122px;
+    background-position-x: 102px;
+    background-size: 1100px;
+}
+
+#Catageory3 {
+    /* Frame 64 */
+    position: absolute;
+    width: 684px;
+    height: 289px;
+    left: 64px;
+    top: 501px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/aa19/c69e/82cd85a823c989c1c8631bd976e2cbfb?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WvMpm-lMGOYOtqeXsx6oyB-fRhCaRUW~g1H-wiH3hkV4wUeRL8SsKxb4uGtSGpKTeMilnqDH5WjB-Px5~mLYzIqUyFs9ge9T-nPKh6XWPSbw6YGncWlXQ2A9RkQfWaGv50A1zjlb6-aDLKjlG2mzd20cOP3wfCZpYtnTcXR39Ocpx7B0m4XuhvgTkpAEfXT-k2JTaDPB46bzlfBcgWpgL7RouJ5kt18zSYlHC9bAAbbetdrNBJcNKR094fUDyP-IHiiYBQVtUHOMhzer0iMSEu3fKLnj4KScGHu8v9NP4CDkqvtvdCuY1-0aRnUqID4p~GUKJPOHUUg1u~RyF5mUmA__);
+    background-position-y: -172px;
+
+}
+
+#Catageory4 {
+    /* Frame 63 */
+    position: absolute;
+    width: 407px;
+    height: 289px;
+    left: 768px;
+    top: 501px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/fce6/58e0/c17a220fe8bfb1126626f3ab58a761ec?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=F7PfKwrEh2T8F~QWqyxMuArXm00FGJHnjQo2qU01j3hJKys4UA1cWjS2iHm7JvR446KzXYURC63tGTklLIw7WUq3O-tnBVzSNRS4uLo8eEIHY6M5MoX1WNThqikqTtg~BNrYE6yvrJb-2ZbLb0e2R2KrIDFSPI8RP2rwBItgUXgrOUggcPpQuPStysem0GMYiIL8hVLEaJPeUlSPZSZPBsbH5ZjAjHqyorTgYE0YznNzQiuSmPcEryHULp0vGJENHL2G093TGoS9-mCZ4sW5hgeIJcRb4~0V40nimxdHvfQWeNUOMz0ymFztld-c58aF7UeYTxy31cyvBmD4-QehCA__);
+    background-position-y: -140px;
+    background-position-x: 50px;
+    background-size: 450px;
+    background-repeat: no-repeat;
+}
+#ReviewContainer{
+    position: relative;
+    top: 460px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#HappyCustomers{
+    /* OUR HAPPY CUSTOMERS */
+position: absolute;
+width: 954px;
+height: 58px;
+left: 100px;
+top: 63px;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+display: flex;
+align-items: center;
+color: #000000;
+}
+#review1{
+    /* Frame 22 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 28px 32px;
+gap: 24px 342px;
+
+position: absolute;
+width: 400px;
+height: 240px;
+left: 100px;
+top: 150px;
+
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+}
+#review2{
+    /* Frame 61 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 28px 32px;
+gap: 24px 342px;
+
+position: absolute;
+width: 400px;
+height: 239.58px;
+left: 520px;
+top: 150px;
+
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+}
+#review3{
+    /* Frame 62 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 28px 32px;
+gap: 24px 342px;
+
+position: absolute;
+width: 400px;
+height: 239.58px;
+left: 940px;
+top: 150px;
+
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+}
+#CustomerName{
+width: 182px;
+height: 15px;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
